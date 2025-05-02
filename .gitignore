@@ -1,2 +1,5 @@
 Data/Water-Nacl
-.ipynb_checkpoints
+.ipynb_checkpoints/
+__pycache__/
+segment-anything-2/
+Thumbs.db
