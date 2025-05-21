@@ -1,0 +1,2410 @@
+{
+  "image": {
+    "image_id": 36,
+    "width": 1392,
+    "height": 1040,
+    "file_name": "36.jpg"
+  },
+  "annotations": [
+    {
+      "bbox": [
+        801.0,
+        621.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "RT^i03[P14M2O0O2O000O2O00000001N1000001N2N3L`ZTb0"
+      }
+    },
+    {
+      "bbox": [
+        804.0,
+        567.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "lSai03[P14M2O0O2O000O2O00000001N1000001N2N3LfZQb0"
+      }
+    },
+    {
+      "bbox": [
+        802.0,
+        593.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "fS_i03[P14M2O0O2O000O2O00000001N1000001N2N3LlZSb0"
+      }
+    },
+    {
+      "bbox": [
+        847.0,
+        623.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Tklj03[P14M2O0O2O000O2O00000001N1000001N2N3L^ce`0"
+      }
+    },
+    {
+      "bbox": [
+        848.0,
+        567.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "limj03[P14M2O0O2O000O2O00000001N1000001N2N3Lfdd`0"
+      }
+    },
+    {
+      "bbox": [
+        848.0,
+        595.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "hjmj03[P14M2O0O2O000O2O00000001N1000001N2N3Ljcd`0"
+      }
+    },
+    {
+      "bbox": [
+        891.0,
+        624.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "UaYl03[P14M2O0O2O000O2O00000001N1000001N2N3L]mX?"
+      }
+    },
+    {
+      "bbox": [
+        894.0,
+        568.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "m`\\l03[P14M2O0O2O000O2O00000001N1000001N2N3LemU?"
+      }
+    },
+    {
+      "bbox": [
+        893.0,
+        596.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Ya[l03[P14M2O0O2O000O2O00000001N1000001N2N3LYmV?"
+      }
+    },
+    {
+      "bbox": [
+        937.0,
+        626.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "WXhm03[P14M2O0O2O000O2O00000001N1000001N2N3L[Vj="
+      }
+    },
+    {
+      "bbox": [
+        939.0,
+        570.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "_Wjm03[P14M2O0O2O000O2O00000001N1000001N2N3LSWh="
+      }
+    },
+    {
+      "bbox": [
+        937.0,
+        598.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "[Whm03[P14M2O0O2O000O2O00000001N1000001N2N3LWWj="
+      }
+    },
+    {
+      "bbox": [
+        795.0,
+        759.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "\\UXi03[P14M2O0O2O001N1000000001O0O101N1O2O2LVYZb0"
+      }
+    },
+    {
+      "bbox": [
+        798.0,
+        704.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "UU[i03[P14M2O0O2O001N1000000001O0O101N1O2O2L]YWb0"
+      }
+    },
+    {
+      "bbox": [
+        797.0,
+        731.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "`UZi03[P14M2O0O2O001N1000000001O0O101N1O2O2LRYXb0"
+      }
+    },
+    {
+      "bbox": [
+        840.0,
+        761.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "nkej03[P14M2O0O2O001N1000000001O0O101N1O2O2Ldbl`0"
+      }
+    },
+    {
+      "bbox": [
+        842.0,
+        705.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Vkgj03[P14M2O0O2O001N1000000001O0O101N1O2O2L\\cj`0"
+      }
+    },
+    {
+      "bbox": [
+        842.0,
+        733.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Rlgj03[P14M2O0O2O001N1000000001O0O101N1O2O2L`bj`0"
+      }
+    },
+    {
+      "bbox": [
+        886.0,
+        762.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "obTl03[P14M2O0O2O001N1000000001O0O101N1O2O2Lck]?"
+      }
+    },
+    {
+      "bbox": [
+        888.0,
+        707.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "XbVl03[P14M2O0O2O001N1000000001O0O101N1O2O2LZl[?"
+      }
+    },
+    {
+      "bbox": [
+        888.0,
+        735.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "TcVl03[P14M2O0O2O001N1000000001O0O101N1O2O2L^k[?"
+      }
+    },
+    {
+      "bbox": [
+        930.0,
+        764.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "QYam03[P14M2O0O2O001N1000000001O0O101N1O2O2LaUQ>"
+      }
+    },
+    {
+      "bbox": [
+        933.0,
+        708.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "iXdm03[P14M2O0O2O001N1000000001O0O101N1O2O2LiUn="
+      }
+    },
+    {
+      "bbox": [
+        932.0,
+        736.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "UYcm03[P14M2O0O2O001N1000000001O0O101N1O2O2L]Uo="
+      }
+    },
+    {
+      "bbox": [
+        808.0,
+        482.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "WSei03[P14M2O0O2O001N1000000001O0O101N1O2O2L[[ma0"
+      }
+    },
+    {
+      "bbox": [
+        811.0,
+        427.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "PShi03[P14M2O0O2O001N1000000001O0O101N1O2O2Lb[ja0"
+      }
+    },
+    {
+      "bbox": [
+        809.0,
+        455.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "lRfi03[P14M2O0O2O001N1000000001O0O101N1O2O2Lf[la0"
+      }
+    },
+    {
+      "bbox": [
+        853.0,
+        484.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "iiRk03[P14M2O0O2O001N1000000001O0O101N1O2O2Lid_`0"
+      }
+    },
+    {
+      "bbox": [
+        855.0,
+        428.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "QiTk03[P14M2O0O2O001N1000000001O0O101N1O2O2Lae]`0"
+      }
+    },
+    {
+      "bbox": [
+        855.0,
+        456.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "miTk03[P14M2O0O2O001N1000000001O0O101N1O2O2Led]`0"
+      }
+    },
+    {
+      "bbox": [
+        899.0,
+        485.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "j`al03[P14M2O0O2O001N1000000001O0O101N1O2O2LhmP?"
+      }
+    },
+    {
+      "bbox": [
+        901.0,
+        430.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "S`cl03[P14M2O0O2O001N1000000001O0O101N1O2O2L_nn>"
+      }
+    },
+    {
+      "bbox": [
+        899.0,
+        458.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "o_al03[P14M2O0O2O001N1000000001O0O101N1O2O2LcnP?"
+      }
+    },
+    {
+      "bbox": [
+        944.0,
+        487.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "\\Wom03[P14M2O0O2O001N1000000001O0O101N1O2O2LVWc="
+      }
+    },
+    {
+      "bbox": [
+        946.0,
+        431.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "dVQn03[P14M2O0O2O001N1000000001O0O101N1O2O2LnWa="
+      }
+    },
+    {
+      "bbox": [
+        946.0,
+        459.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "`WQn03[P14M2O0O2O001N1000000001O0O101N1O2O2LRWa="
+      }
+    },
+    {
+      "bbox": [
+        374.0,
+        606.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "S^l;3[P14M2O0O2O000O2O00000001N1000001N2N3L_Pfo0"
+      }
+    },
+    {
+      "bbox": [
+        377.0,
+        550.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "k]o;3[P14M2O0O2O000O2O00000001N1000001N2N3LgPco0"
+      }
+    },
+    {
+      "bbox": [
+        375.0,
+        578.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "g]m;3[P14M2O0O2O000O2O00000001N1000001N2N3LkPeo0"
+      }
+    },
+    {
+      "bbox": [
+        418.0,
+        608.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "UTY=3[P14M2O0O2O000O2O00000001N1000001N2N3L]ZYn0"
+      }
+    },
+    {
+      "bbox": [
+        420.0,
+        552.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "]S[=3[P14M2O0O2O000O2O00000001N1000001N2N3LU[Wn0"
+      }
+    },
+    {
+      "bbox": [
+        420.0,
+        580.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "YT[=3[P14M2O0O2O000O2O00000001N1000001N2N3LYZWn0"
+      }
+    },
+    {
+      "bbox": [
+        463.0,
+        610.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "gjf>3[P14M2O0O2O000O2O00000001N1000001N2N3Lkckl0"
+      }
+    },
+    {
+      "bbox": [
+        466.0,
+        554.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "_ji>3[P14M2O0O2O000O2O00000001N1000001N2N3LSdhl0"
+      }
+    },
+    {
+      "bbox": [
+        464.0,
+        582.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "[jg>3[P14M2O0O2O000O2O00000001N1000001N2N3LWdjl0"
+      }
+    },
+    {
+      "bbox": [
+        509.0,
+        611.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "haU`03[P14M2O0O2O000O2O00000001N1000001N2N3Ljl\\k0"
+      }
+    },
+    {
+      "bbox": [
+        512.0,
+        555.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "`aX`03[P14M2O0O2O000O2O00000001N1000001N2N3LRmYk0"
+      }
+    },
+    {
+      "bbox": [
+        509.0,
+        585.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "n`U`03[P14M2O0O2O000O2O00000001N1000001N2N3Ldm\\k0"
+      }
+    },
+    {
+      "bbox": [
+        367.0,
+        744.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "m^e;3[P14M2O0O2O001N1000000001O0O101N1O2O2Leolo0"
+      }
+    },
+    {
+      "bbox": [
+        369.0,
+        690.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "W^g;3[P14M2O0O2O001N1000000001O0O101N1O2O2L[Pko0"
+      }
+    },
+    {
+      "bbox": [
+        369.0,
+        716.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Q_g;3[P14M2O0O2O001N1000000001O0O101N1O2O2Laojo0"
+      }
+    },
+    {
+      "bbox": [
+        411.0,
+        746.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "oTR=3[P14M2O0O2O001N1000000001O0O101N1O2O2LcY`n0"
+      }
+    },
+    {
+      "bbox": [
+        414.0,
+        690.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "gTU=3[P14M2O0O2O001N1000000001O0O101N1O2O2LkY]n0"
+      }
+    },
+    {
+      "bbox": [
+        413.0,
+        718.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "SUT=3[P14M2O0O2O001N1000000001O0O101N1O2O2L_Y^n0"
+      }
+    },
+    {
+      "bbox": [
+        457.0,
+        747.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Pl`>3[P14M2O0O2O001N1000000001O0O101N1O2O2LbbQm0"
+      }
+    },
+    {
+      "bbox": [
+        460.0,
+        692.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "ikc>3[P14M2O0O2O001N1000000001O0O101N1O2O2Libnl0"
+      }
+    },
+    {
+      "bbox": [
+        459.0,
+        720.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Ulb>3[P14M2O0O2O001N1000000001O0O101N1O2O2L]bol0"
+      }
+    },
+    {
+      "bbox": [
+        502.0,
+        749.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "bbn?3[P14M2O0O2O001N1000000001O0O101N1O2O2LPlck0"
+      }
+    },
+    {
+      "bbox": [
+        504.0,
+        693.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "jaP`03[P14M2O0O2O001N1000000001O0O101N1O2O2Lhlak0"
+      }
+    },
+    {
+      "bbox": [
+        504.0,
+        721.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "fbP`03[P14M2O0O2O001N1000000001O0O101N1O2O2Llkak0"
+      }
+    },
+    {
+      "bbox": [
+        380.0,
+        467.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "h\\R<3[P14M2O0O2O001N1000000001O0O101N1O2O2LjQ`o0"
+      }
+    },
+    {
+      "bbox": [
+        382.0,
+        413.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "R\\T<3[P14M2O0O2O001N1000000001O0O101N1O2O2L`R^o0"
+      }
+    },
+    {
+      "bbox": [
+        382.0,
+        441.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "n\\T<3[P14M2O0O2O001N1000000001O0O101N1O2O2LdQ^o0"
+      }
+    },
+    {
+      "bbox": [
+        424.0,
+        469.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "jR_=3[P14M2O0O2O001N1000000001O0O101N1O2O2Lh[Sn0"
+      }
+    },
+    {
+      "bbox": [
+        428.0,
+        415.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "TSc=3[P14M2O0O2O001N1000000001O0O101N1O2O2L^[om0"
+      }
+    },
+    {
+      "bbox": [
+        426.0,
+        441.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "nRa=3[P14M2O0O2O001N1000000001O0O101N1O2O2Ld[Qn0"
+      }
+    },
+    {
+      "bbox": [
+        471.0,
+        472.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "]jn>3[P14M2O0O2O001N1000000001O0O101N1O2O2LUdcl0"
+      }
+    },
+    {
+      "bbox": [
+        473.0,
+        416.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "eiP?3[P14M2O0O2O001N1000000001O0O101N1O2O2Lmdal0"
+      }
+    },
+    {
+      "bbox": [
+        471.0,
+        444.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "ain>3[P14M2O0O2O001N1000000001O0O101N1O2O2LQecl0"
+      }
+    },
+    {
+      "bbox": [
+        515.0,
+        472.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "]`[`03[P14M2O0O2O001N1000000001O0O101N1O2O2LUnVk0"
+      }
+    },
+    {
+      "bbox": [
+        517.0,
+        418.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "g_]`03[P14M2O0O2O001N1000000001O0O101N1O2O2LknTk0"
+      }
+    },
+    {
+      "bbox": [
+        517.0,
+        446.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "c`]`03[P14M2O0O2O001N1000000001O0O101N1O2O2LomTk0"
+      }
+    },
+    {
+      "bbox": [
+        588.0,
+        615.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "\\ieb03[P14M2O0O2O000O2O00000001N1000001N2N3LVelh0"
+      }
+    },
+    {
+      "bbox": [
+        591.0,
+        559.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Tihb03[P14M2O0O2O000O2O00000001N1000001N2N3L^eih0"
+      }
+    },
+    {
+      "bbox": [
+        590.0,
+        587.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "`igb03[P14M2O0O2O000O2O00000001N1000001N2N3LRejh0"
+      }
+    },
+    {
+      "bbox": [
+        632.0,
+        616.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "]_Rd03[P14M2O0O2O000O2O00000001N1000001N2N3LUo_g0"
+      }
+    },
+    {
+      "bbox": [
+        634.0,
+        560.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "e^Td03[P14M2O0O2O000O2O00000001N1000001N2N3Lmo]g0"
+      }
+    },
+    {
+      "bbox": [
+        634.0,
+        588.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "a_Td03[P14M2O0O2O000O2O00000001N1000001N2N3LQo]g0"
+      }
+    },
+    {
+      "bbox": [
+        677.0,
+        618.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "oU`e03[P14M2O0O2O000O2O00000001N1000001N2N3LcXRf0"
+      }
+    },
+    {
+      "bbox": [
+        680.0,
+        562.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "gUce03[P14M2O0O2O000O2O00000001N1000001N2N3LkXoe0"
+      }
+    },
+    {
+      "bbox": [
+        679.0,
+        590.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "SVbe03[P14M2O0O2O000O2O00000001N1000001N2N3L_XPf0"
+      }
+    },
+    {
+      "bbox": [
+        723.0,
+        620.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Qmnf03[P14M2O0O2O000O2O00000001N1000001N2N3Laacd0"
+      }
+    },
+    {
+      "bbox": [
+        725.0,
+        564.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "YlPg03[P14M2O0O2O000O2O00000001N1000001N2N3LYbad0"
+      }
+    },
+    {
+      "bbox": [
+        723.0,
+        592.0,
+        19.0,
+        13.0
+      ],
+      "area": 189,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Ulnf03[P14M2O0O2O000O2O00000001N1000001N2N3L]bcd0"
+      }
+    },
+    {
+      "bbox": [
+        581.0,
+        752.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Uj^b03[P14M2O0O2O001N1000000001O0O101N1O2O2L]dSi0"
+      }
+    },
+    {
+      "bbox": [
+        583.0,
+        698.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "_i`b03[P14M2O0O2O001N1000000001O0O101N1O2O2LSeQi0"
+      }
+    },
+    {
+      "bbox": [
+        583.0,
+        724.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Yj`b03[P14M2O0O2O001N1000000001O0O101N1O2O2LYdQi0"
+      }
+    },
+    {
+      "bbox": [
+        625.0,
+        754.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "W`kc03[P14M2O0O2O001N1000000001O0O101N1O2O2L[nfg0"
+      }
+    },
+    {
+      "bbox": [
+        628.0,
+        698.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "o_nc03[P14M2O0O2O001N1000000001O0O101N1O2O2Lcncg0"
+      }
+    },
+    {
+      "bbox": [
+        627.0,
+        726.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "[`mc03[P14M2O0O2O001N1000000001O0O101N1O2O2LWndg0"
+      }
+    },
+    {
+      "bbox": [
+        672.0,
+        755.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "hW[e03[P14M2O0O2O001N1000000001O0O101N1O2O2LjVWf0"
+      }
+    },
+    {
+      "bbox": [
+        674.0,
+        701.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "RW]e03[P14M2O0O2O001N1000000001O0O101N1O2O2L`WUf0"
+      }
+    },
+    {
+      "bbox": [
+        674.0,
+        729.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "nW]e03[P14M2O0O2O001N1000000001O0O101N1O2O2LdVUf0"
+      }
+    },
+    {
+      "bbox": [
+        716.0,
+        757.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "jmgf03[P14M2O0O2O001N1000000001O0O101N1O2O2Lh`jd0"
+      }
+    },
+    {
+      "bbox": [
+        718.0,
+        701.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Rmif03[P14M2O0O2O001N1000000001O0O101N1O2O2L`ahd0"
+      }
+    },
+    {
+      "bbox": [
+        718.0,
+        729.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "nmif03[P14M2O0O2O001N1000000001O0O101N1O2O2Ld`hd0"
+      }
+    },
+    {
+      "bbox": [
+        594.0,
+        475.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Phkb03[P14M2O0O2O001N1000000001O0O101N1O2O2Lbffh0"
+      }
+    },
+    {
+      "bbox": [
+        597.0,
+        421.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "jgnb03[P14M2O0O2O001N1000000001O0O101N1O2O2Lhfch0"
+      }
+    },
+    {
+      "bbox": [
+        596.0,
+        447.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Thmb03[P14M2O0O2O001N1000000001O0O101N1O2O2L^fdh0"
+      }
+    },
+    {
+      "bbox": [
+        639.0,
+        477.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "b^Yd03[P14M2O0O2O001N1000000001O0O101N1O2O2LPPYg0"
+      }
+    },
+    {
+      "bbox": [
+        641.0,
+        421.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "j][d03[P14M2O0O2O001N1000000001O0O101N1O2O2LhPWg0"
+      }
+    },
+    {
+      "bbox": [
+        641.0,
+        449.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "f^[d03[P14M2O0O2O001N1000000001O0O101N1O2O2LloVg0"
+      }
+    },
+    {
+      "bbox": [
+        685.0,
+        478.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "cUhe03[P14M2O0O2O001N1000000001O0O101N1O2O2LoXje0"
+      }
+    },
+    {
+      "bbox": [
+        687.0,
+        424.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "mTje03[P14M2O0O2O001N1000000001O0O101N1O2O2LeYhe0"
+      }
+    },
+    {
+      "bbox": [
+        685.0,
+        452.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "iThe03[P14M2O0O2O001N1000000001O0O101N1O2O2LiYje0"
+      }
+    },
+    {
+      "bbox": [
+        729.0,
+        480.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "ekTg03[P14M2O0O2O001N1000000001O0O101N1O2O2Lmb]d0"
+      }
+    },
+    {
+      "bbox": [
+        732.0,
+        424.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "]kWg03[P14M2O0O2O001N1000000001O0O101N1O2O2LUcZd0"
+      }
+    },
+    {
+      "bbox": [
+        731.0,
+        452.0,
+        19.0,
+        13.0
+      ],
+      "area": 188,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "ikVg03[P14M2O0O2O001N1000000001O0O101N1O2O2Lib[d0"
+      }
+    },
+    {
+      "bbox": [
+        1067.0,
+        736.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "j\\lQ15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LhgQ9"
+      }
+    },
+    {
+      "bbox": [
+        1127.0,
+        738.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "lZiS15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LfiT7"
+      }
+    },
+    {
+      "bbox": [
+        1153.0,
+        703.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "ifcT15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3Li]Z6"
+      }
+    },
+    {
+      "bbox": [
+        1090.0,
+        771.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "]icR15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LU[Z8"
+      }
+    },
+    {
+      "bbox": [
+        1188.0,
+        739.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "]YgU15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LUkV5"
+      }
+    },
+    {
+      "bbox": [
+        1151.0,
+        772.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "ngaT15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3Ld\\\\6"
+      }
+    },
+    {
+      "bbox": [
+        1094.0,
+        702.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "XigR15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LZ[V8"
+      }
+    },
+    {
+      "bbox": [
+        1074.0,
+        598.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "P\\SR15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3Lbhj8"
+      }
+    },
+    {
+      "bbox": [
+        1133.0,
+        599.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "aYoS15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LQkn6"
+      }
+    },
+    {
+      "bbox": [
+        1161.0,
+        565.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "_fkT15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LS^R6"
+      }
+    },
+    {
+      "bbox": [
+        1097.0,
+        632.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "bhjR15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LP\\S8"
+      }
+    },
+    {
+      "bbox": [
+        1194.0,
+        599.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "QXmU15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LalP5"
+      }
+    },
+    {
+      "bbox": [
+        1158.0,
+        634.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "TghT15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3L^]U6"
+      }
+    },
+    {
+      "bbox": [
+        1100.0,
+        563.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "mgmR15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3Le\\P8"
+      }
+    },
+    {
+      "bbox": [
+        1140.0,
+        461.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "gXVT15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3Lkkg6"
+      }
+    },
+    {
+      "bbox": [
+        1166.0,
+        426.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "ddPU15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3Ln_m5"
+      }
+    },
+    {
+      "bbox": [
+        1104.0,
+        494.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "hgQS15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3Lj\\l7"
+      }
+    },
+    {
+      "bbox": [
+        1201.0,
+        463.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "YWTV15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LYmi4"
+      }
+    },
+    {
+      "bbox": [
+        1163.0,
+        496.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "ZemT15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LX_P6"
+      }
+    },
+    {
+      "bbox": [
+        1107.0,
+        425.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "SgTS15YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3L_]i7"
+      }
+    },
+    {
+      "bbox": [
+        1080.0,
+        459.0,
+        41.0,
+        25.0
+      ],
+      "area": 797,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "eZYR15YP14M2N2N2N2O0O2N2O000O2O00000O2O00000000000000000001N1000001N101N10001N2N2N2N2N3Lmhb8"
+      }
+    },
+    {
+      "bbox": [
+        92.0,
+        705.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "[Tn25YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LWPPX1"
+      }
+    },
+    {
+      "bbox": [
+        151.0,
+        707.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "mQj45YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LeRTV1"
+      }
+    },
+    {
+      "bbox": [
+        177.0,
+        672.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "j]d55YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LhfYU1"
+      }
+    },
+    {
+      "bbox": [
+        115.0,
+        740.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "n`e35YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LdcXW1"
+      }
+    },
+    {
+      "bbox": [
+        212.0,
+        708.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "^Ph65YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LTTVT1"
+      }
+    },
+    {
+      "bbox": [
+        176.0,
+        741.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "__c55YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LSeZU1"
+      }
+    },
+    {
+      "bbox": [
+        118.0,
+        670.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "X`h35YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LZdUW1"
+      }
+    },
+    {
+      "bbox": [
+        98.0,
+        567.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "QST35YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LaQjW1"
+      }
+    },
+    {
+      "bbox": [
+        158.0,
+        568.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "RQQ55YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3L`SmU1"
+      }
+    },
+    {
+      "bbox": [
+        186.0,
+        534.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "P^m55YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LbfPU1"
+      }
+    },
+    {
+      "bbox": [
+        121.0,
+        601.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "c_k35YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LodRW1"
+      }
+    },
+    {
+      "bbox": [
+        219.0,
+        568.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "bon65YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LPUoS1"
+      }
+    },
+    {
+      "bbox": [
+        182.0,
+        603.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "U^i55YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3L]fTU1"
+      }
+    },
+    {
+      "bbox": [
+        125.0,
+        532.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "^_o35YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LTenV1"
+      }
+    },
+    {
+      "bbox": [
+        164.0,
+        428.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "foV55YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LlTgU1"
+      }
+    },
+    {
+      "bbox": [
+        191.0,
+        394.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "T\\R65YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3L^hkT1"
+      }
+    },
+    {
+      "bbox": [
+        128.0,
+        461.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "g^R45YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LkekV1"
+      }
+    },
+    {
+      "bbox": [
+        225.0,
+        430.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "XnT75YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LZViS1"
+      }
+    },
+    {
+      "bbox": [
+        187.0,
+        463.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "Y\\n55YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3LYhoT1"
+      }
+    },
+    {
+      "bbox": [
+        131.0,
+        392.0,
+        39.0,
+        25.0
+      ],
+      "area": 763,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "R^U45YP14M2M4M2O000O2N2O000O2O000O2O00000000000000000001N1000001N101N101N101N3L3N3L`fhV1"
+      }
+    },
+    {
+      "bbox": [
+        105.0,
+        426.0,
+        41.0,
+        25.0
+      ],
+      "area": 797,
+      "segmentation": {
+        "size": [
+          1040,
+          1392
+        ],
+        "counts": "TR[35YP14M2N2N2N2O0O2N2O000O2O00000O2O00000000000000000001N1000001N101N10001N2N2N2N2N3L^QaW1"
+      }
+    }
+  ]
+}

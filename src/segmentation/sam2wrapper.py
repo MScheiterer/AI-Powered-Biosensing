@@ -7,7 +7,7 @@ Wrapper class to simplify SAM2AutomaticMaskGenerator and SAM2Predictor functiona
 """
 
 import torch
-import helpers
+from . import helpers
 import os
 import matplotlib.pyplot as plt
 import numpy as np
@@ -45,12 +45,13 @@ class SAM2Wrapper:
         print(f"using device: {device}")
 
         base_path = os.getcwd() # Save cwd path
-        os.chdir(f"{os.path.dirname(os.path.abspath(__file__))}/segment-anything-2")
+        os.chdir(f"{os.path.dirname(os.path.abspath(__file__))}/../../sam2")
     
         if config is None:
-            config = f"/configs/sam2/sam2_hiera_s.yaml" # @param ["sam2.1_hiera_t.yaml", "sam2.1_hiera_s.yaml", "sam2.1_hiera_b+.yaml", "sam2.1_hiera_l.yaml"]
+            config = "/configs/sam2.1/sam2.1_hiera_l.yaml" # @param ["sam2.1_hiera_t.yaml", "sam2.1_hiera_s.yaml", "sam2.1_hiera_b+.yaml", "sam2.1_hiera_l.yaml"]
         if checkpoint is None:
-            checkpoint = f"checkpoints/sam2_hiera_small.pt"  # @param ["sam2.1_hiera_tiny.pt", "sam2.1_hiera_small.pt", "sam2.1_hiera_base_plus.pt", "sam2.1_hiera_large.pt"]
+            checkpoint = "C:\\Users\\Micha\\Desktop\\BachelorProject\\AI-Powered-Biosensing\\sam2\\checkpoints\\sam2.1_hiera_large.pt"
+            #checkpoint = "checkpoints/sam2.1_hiera_small.pt"  # @param ["sam2.1_hiera_tiny.pt", "sam2.1_hiera_small.pt", "sam2.1_hiera_base_plus.pt", "sam2.1_hiera_large.pt"]
             
         os.chdir(base_path) # Restore cwd path
         
@@ -94,16 +95,7 @@ class AutomaticMaskGenerator(SAM2Wrapper):
         super().__init__(config, checkpoint)
         self.mask_generator = SAM2AutomaticMaskGenerator(
             model=self.model,
-            points_per_side=64,
-            points_per_batch=128,
-            pred_iou_thresh=0.7,
-            stability_score_thresh=0.92,
-            stability_score_offset=0.7,
-            crop_n_layers=1,
-            box_nms_thresh=0.7,
-            crop_n_points_downscale_factor=2,
-            min_mask_region_area=25.0,
-            use_m2m=True
+            points_per_side=80
         )
         print("-- SAM2amg says: Hello World!")
 
@@ -111,11 +103,17 @@ class AutomaticMaskGenerator(SAM2Wrapper):
         self.mask_data = self.mask_generator.generate(self.image)
         self.masks = [mask_info["segmentation"] for mask_info in self.mask_data]
 
+    
+    def filter_masks(self):
+        height, width = self.image.shape[:2]
+        total_pixels = height * width
+        self.mask_data = [mask for mask in self.mask_data if 0.00025 < mask["area"] / total_pixels < 0.03]
+        self.mask_data = [mask for mask in self.mask_data if helpers.compute_circularity(mask["segmentation"]) > 0.75]
+
 
     def visualize_masks(self):
         plt.figure(figsize=(10, 10))
         plt.imshow(self.image)
-        #helpers.show_masks(self.image, self.masks, self.scores)
         helpers.show_anns(self.mask_data)
         plt.axis('off')
         plt.show()

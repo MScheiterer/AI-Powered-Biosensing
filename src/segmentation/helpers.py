@@ -14,7 +14,7 @@ def show_anns(anns, ax=None):
     if len(anns) == 0:
         return
     sorted_anns = sorted(anns, key=(lambda x: x['area']), reverse=True)
-    if ax is not None: 
+    if ax is None: 
         ax = plt.gca()
     ax.set_autoscale_on(False)
 
