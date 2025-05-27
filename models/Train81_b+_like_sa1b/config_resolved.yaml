@@ -3,14 +3,16 @@ scratch:
   train_batch_size: 1
   num_train_workers: 1
   num_frames: 1
-  max_num_objects: 10
+  max_num_objects: 80
   base_lr: 5.0e-06
   vision_lr: 3.0e-06
   phases_per_epoch: 1
   num_epochs: 200
 dataset:
-  img_folder: C:/Users/Micha/Desktop/BachelorProject/AI-Powered-Biosensing/data/Train81/LikeSA1B/Images
-  gt_folder: C:/Users/Micha/Desktop/BachelorProject/AI-Powered-Biosensing/data/Train81/LikeSA1B/Annotations
+  img_folder: /rwthfs/rz/cluster/home/ft301665/jupyterlab/AI-Powered-Biosensing/Data/Finetuning
+    Data/SAM2/Train81/Images
+  gt_folder: /rwthfs/rz/cluster/home/ft301665/jupyterlab/AI-Powered-Biosensing/Data/Finetuning
+    Data/SAM2/Train81/Annotations
   file_list_txt: null
   multiplier: 2
 vos:
@@ -235,13 +237,15 @@ trainer:
         training: true
         video_dataset:
           _target_: training.dataset.vos_raw_dataset.SA1BRawDataset
-          img_folder: C:/Users/Micha/Desktop/BachelorProject/AI-Powered-Biosensing/data/Train81/LikeSA1B/Images
-          gt_folder: C:/Users/Micha/Desktop/BachelorProject/AI-Powered-Biosensing/data/Train81/LikeSA1B/Annotations
+          img_folder: /rwthfs/rz/cluster/home/ft301665/jupyterlab/AI-Powered-Biosensing/Data/Finetuning
+            Data/SAM2/Train81/Images
+          gt_folder: /rwthfs/rz/cluster/home/ft301665/jupyterlab/AI-Powered-Biosensing/Data/Finetuning
+            Data/SAM2/Train81/Annotations
           file_list_txt: null
         sampler:
           _target_: training.dataset.vos_sampler.RandomUniformSampler
           num_frames: 1
-          max_num_objects: 10
+          max_num_objects: 80
         multiplier: 2
       shuffle: true
       num_workers: 1
@@ -311,13 +315,13 @@ trainer:
   logging:
     tensorboard_writer:
       _target_: training.utils.logger.make_tensorboard_logger
-      log_dir: C:/Users/Micha/Desktop/BachelorProject/AI-Powered-Biosensing/models/Train81_b+_like_sa1b/tensorboard
+      log_dir: /rwthfs/rz/cluster/home/ft301665/jupyterlab/AI-Powered-Biosensing/Train81_logs/tensorboard
       flush_secs: 120
       should_log: true
-    log_dir: C:/Users/Micha/Desktop/BachelorProject/AI-Powered-Biosensing/models/Train81_b+_like_sa1b/logs
+    log_dir: /rwthfs/rz/cluster/home/ft301665/jupyterlab/AI-Powered-Biosensing/Train81_logs/logs
     log_freq: 10
   checkpoint:
-    save_dir: C:/Users/Micha/Desktop/BachelorProject/AI-Powered-Biosensing/models/Train81_b+_like_sa1b/checkpoints
+    save_dir: /rwthfs/rz/cluster/home/ft301665/jupyterlab/AI-Powered-Biosensing/Train81_logs/checkpoints
     save_freq: 0
     model_weight_initializer:
       _partial_: true
@@ -327,13 +331,13 @@ trainer:
       ignore_missing_keys: null
       state_dict:
         _target_: training.utils.checkpoint_utils.load_checkpoint_and_apply_kernels
-        checkpoint_path: ../checkpoints/sam2.1_hiera_base_plus.pt
+        checkpoint_path: checkpoints/sam2.1_hiera_base_plus.pt
         ckpt_state_dict_keys:
         - model
 launcher:
   num_nodes: 1
   gpus_per_node: 1
-  experiment_log_dir: C:/Users/Micha/Desktop/BachelorProject/AI-Powered-Biosensing/models/Train81_b+_like_sa1b
+  experiment_log_dir: /rwthfs/rz/cluster/home/ft301665/jupyterlab/AI-Powered-Biosensing/Train81_logs
 submitit:
   partition: null
   account: null
