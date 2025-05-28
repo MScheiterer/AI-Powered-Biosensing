@@ -7,7 +7,7 @@ Wrapper class to streamline the use of SAM2AutomaticMaskGenerator:
 """
 
 import torch
-from . import helpers
+from . import utils
 import os
 import matplotlib.pyplot as plt
 import cv2
@@ -78,7 +78,7 @@ class SAM2Wrapper:
         height, width = self.image.shape[:2]
         total_pixels = height * width
         self.masks = [mask for mask in self.masks if 0.00015 < mask["area"] / total_pixels < 0.005]
-        self.masks = [mask for mask in self.masks if helpers.compute_circularity(mask["segmentation"]) > 0.75]
+        self.masks = [mask for mask in self.masks if utils.compute_circularity(mask["segmentation"]) > 0.75]
 
         masks_large = [mask for mask in self.masks if mask['area'] / total_pixels > 0.003]
         masks_medium = [mask for mask in self.masks if 0.0005 < mask['area'] / total_pixels < 0.001]
@@ -89,8 +89,8 @@ class SAM2Wrapper:
     def visualize_masks(self, masks=None):
         plt.figure(figsize=(10, 10))
         plt.imshow(self.image)
-        helpers.show_anns(self.masks)
+        utils.show_anns(self.masks)
         if masks:
-            helpers.show_anns(masks, color=(255, 0, 0, 0.5))
+            utils.show_anns(masks, color=(255, 0, 0, 0.5))
         plt.axis('off')
         plt.show()
