@@ -1,27 +1,28 @@
 """
-Contains helper functions for the SAM2Predictor and SAM2AutomaticMaskGenerator Wrapper classes
+Contains helper functions for the SAM2AutomaticMaskGenerator Wrapper class
 """
 
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 
-np.random.seed(3)
-
 
 # Mask visualization for AMG masks
-def show_anns(anns, ax=None, color=(0, 255, 0, 0.5)):
-    if len(anns) == 0:
+def show_masks(masks, ax=None, color=(0, 255, 0, 0.5)):
+    """
+    anns need to have the keys "segmentation" and "area".
+    """
+    if len(masks) == 0:
         return
-    sorted_anns = sorted(anns, key=(lambda x: x['area']), reverse=True)
+    sorted_masks = sorted(masks, key=(lambda x: x['area']), reverse=True)
     if ax is None: 
         ax = plt.gca()
     ax.set_autoscale_on(False)
 
-    img = np.ones((sorted_anns[0]['segmentation'].shape[0], sorted_anns[0]['segmentation'].shape[1], 4))
+    img = np.ones((sorted_masks[0]['segmentation'].shape[0], sorted_masks[0]['segmentation'].shape[1], 4))
     img[:, :, 3] = 0
-    for ann in sorted_anns:
-        m = ann['segmentation']
+    for mask in sorted_masks:
+        m = mask['segmentation']
         img[m] = color
         contours, _ = cv2.findContours(m.astype(np.uint8), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE) 
         # Try to smooth contours
@@ -47,11 +48,6 @@ def compute_circularity(mask):
 
     circularity = (4 * np.pi * area) / (perimeter ** 2)
     return circularity
-
-
-def show_masks(axes, masks, color=(0, 255, 0, 0.5)):
-    show_anns(anns=masks, ax=axes, color=color)
-    axes.axis('off')
     
     
 def compare_masks(axes, i, masks, image):

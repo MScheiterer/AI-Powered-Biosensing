@@ -20,14 +20,20 @@ import pandas as pd
 #masks = [masks[i] for i in valid_indices]
 
 def run_analysis(data: list[dict], model: SAM2Wrapper) -> list[dict]:
+    """
+    Runs the analyis pipeline: intensity analysis (with option to include mask recalculation), 
+        mask visualization, plot visualization, result export.
+
+    Args:
+        data (list[dict]): image data returned by data_preprocessing.
+    """
     for group, items in data.items():
         calibration_data = []
         for item in items:
             calibration_data.append(intensity_analysis(item, model))
             
             
-        ### Pandas DataFrame Creation and Calibration ###
-        # Create DataFrame and sort by NaCl percentage
+        ### Pandas DataFrame Creation and clean up ###
         df_data = pd.DataFrame(calibration_data).sort_values('NaCl_percentage')
         df_data = df_data.drop(columns=['masks', 'masks_large', 'masks_medium', 'masks_small'])
         # Fill NaN values with 0 if the entire column is NaN
@@ -44,7 +50,7 @@ def run_analysis(data: list[dict], model: SAM2Wrapper) -> list[dict]:
         
         
         ### Intensity vs RI Plots ###
-        
+        utils.create_intensity_plots(df_calibration)
         
         ### Save DataFrame to CSV and plots as one pdf file ###
 

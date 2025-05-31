@@ -3,7 +3,7 @@ Wrapper class to streamline the use of SAM2AutomaticMaskGenerator:
     - Parametrization and creation
     - Automatic mask generation
     - Filtering 
-    - Displaying intermediate and final masks
+    - Visualizing results
 """
 
 import torch
@@ -23,7 +23,6 @@ class SAM2Wrapper:
         self.model:
         self.image:
         self.masks:
-        self.mask_data:
     """
     def __init__(self, config=None, checkpoint=None, points_per_side=128):
         """
@@ -31,8 +30,8 @@ class SAM2Wrapper:
         
         Parameters:
         -----------
-        config : .yaml SAM2 configuration file. (Default sam2.1_s.yaml)
-        checkpoint : .pt SAM2 checkpoint file. (Default sam2.1_small.pt)
+        config : .yaml SAM2 configuration file.
+        checkpoint : .pt SAM2 checkpoint file.
         """
         if torch.cuda.is_available():
             device = torch.device("cuda")
@@ -40,17 +39,6 @@ class SAM2Wrapper:
             device = torch.device("cpu")
         print(f"==== Using device: {device} ====")
 
-        base_path = os.getcwd() # Save cwd path
-        os.chdir(f"{os.path.dirname(os.path.abspath(__file__))}/../../sam2")
-    
-        if config is None:
-            config = "/configs/sam2.1/sam2.1_hiera_l.yaml" # @param ["sam2.1_hiera_t.yaml", "sam2.1_hiera_s.yaml", "sam2.1_hiera_b+.yaml", "sam2.1_hiera_l.yaml"]
-        if checkpoint is None:
-            checkpoint = "C:\\Users\\Micha\\Desktop\\BachelorProject\\AI-Powered-Biosensing\\sam2\\checkpoints\\sam2.1_hiera_large.pt"
-            #checkpoint = "checkpoints/sam2.1_hiera_small.pt"  # @param ["sam2.1_hiera_tiny.pt", "sam2.1_hiera_small.pt", "sam2.1_hiera_base_plus.pt", "sam2.1_hiera_large.pt"]
-            
-        os.chdir(base_path) # Restore cwd path
-        
         self.config = config
         self.checkpoint = checkpoint
         self.model = build_sam2(config, checkpoint, device=device)
@@ -89,8 +77,8 @@ class SAM2Wrapper:
     def visualize_masks(self, masks=None):
         plt.figure(figsize=(10, 10))
         plt.imshow(self.image)
-        utils.show_anns(self.masks)
+        utils.show_masks(self.masks)
         if masks:
-            utils.show_anns(masks, color=(255, 0, 0, 0.5))
+            utils.show_masks(masks, color=(255, 0, 0, 0.5))
         plt.axis('off')
         plt.show()
